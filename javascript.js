@@ -40,8 +40,14 @@ function menu(action){
 		return 0;
 	}
 	if(action===0){
+		alert("Do you want to restart the game!");
+	}
+	
+	if(action===0){
 		alert("This game is paused !");
-	}else{
+	}
+	
+	else{
 		window.close();
 		alert("This game is paused !");
 	}
