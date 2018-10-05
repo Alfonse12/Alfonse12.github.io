@@ -317,10 +317,6 @@ function drawscreen(){
 	
 	tempColor = textFillColor;
 	
-	context.fillStyle = tempColor;
-	context.fillText  (message, xPosition,yPosition);
-	context.strokeStyle = "#000000";
-	context.strokeText  (message, xPosition,yPosition);
 	
 }
 
