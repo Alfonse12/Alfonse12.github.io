@@ -50,8 +50,8 @@ function menu(action){
 }
 //Displays an alert with the copyrights of the App
 function about(){
-	alert("Still developing the App ");
-	alert("Thank you for being patient");
+	alert("For any help please contact us under the links below via facebook or Email");
+	//alert("Thank you for being patient");
 }
 //This function is the first which runs after having choosed a game. It determines the number of questions, the countdown, the level name, and the criteria of adding or removing score after a success or a fail
 function initializer(level){
