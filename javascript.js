@@ -16,6 +16,14 @@ function modifyStyle(idNode,propertyName, propertyValue) {
 }
 
 
+
+// function to translate the page in any language 
+
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+
+
 //Show the hidden div which contains questions and timer
 function toggleClassStuffs(){
 	className="hidden";
