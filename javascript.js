@@ -299,13 +299,13 @@ function board(max){
 
 function drawscreen(){
 	context.globalAlpha = 1;
-	context.shadowColor = "#707070";
+	context.shadowColor = "#ffffff";
 	context.shadowOffsetX = 0;
 	context.shadowOffsetY = 0;
 	context.shadowBlur = 0;
-	context.fillStyle = "#ffffaa";
+	context.fillStyle = "#ffffff";
 	context.fillRect(0, 0, theCanvas.width, theCanvas.height);//Box
-	context.strokeStyle = "#000000";
+	context.strokeStyle = "#ffffff";
 	context.strokeRect(5,  5, theCanvas.width-10, theCanvas.height-10);
 	//Text
 	context.textBaseline = textBaseline;
